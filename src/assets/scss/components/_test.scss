@@ -1,0 +1,15 @@
+.test {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}
+
+.word {
+    display: inline-block;
+    font-size: 28px;
+    color: var(--font-color);
+    font-weight: 700;
+    pointer-events: none;
+}
